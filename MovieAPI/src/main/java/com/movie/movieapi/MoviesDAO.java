@@ -13,20 +13,17 @@ public class MoviesDAO {
         list.addMovie(new Movie(
                 "Godzilla",
                 "Action",
-                1998
-        ));
+                1998));
 
         list.addMovie(new Movie(
                 "Benchwarmers",
                 "Comedy",
-                1980
-        ));
+                1980));
 
         list.addMovie(new Movie(
                 "Notebook",
                 "Romance",
-                1963
-        ));
+                1963));
     }
 
     // Get all the movies

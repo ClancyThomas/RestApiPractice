@@ -8,15 +8,16 @@ public class Movies {
 
     private List<Movie> movieList;
 
-    // Get the movie list
-    public List<Movie> getMovieList() {
+    // Constructor with no parameters
+    public Movies() {
         // Check if the movie list is null before returning
         if (movieList == null) {
             movieList = new ArrayList<>();
         }
-
-        return this.movieList;
     }
+
+    // Get the movie list
+    public List<Movie> getMovieList() { return this.movieList; }
 
     // Set the movie list
     public void setMovieList(List<Movie> movieList) {

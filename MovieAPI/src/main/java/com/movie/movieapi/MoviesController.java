@@ -32,7 +32,7 @@ public class MoviesController {
 
         moviesDAO.addMovie(movie);
 
-        URI location = ServletUriComponenetsBuilder
+        URI location = ServletUriComponentsBuilder
                         .fromCurrentRequest()
                         .path("/{title}")
                         .buildAndExpand(movie.getTitle())
