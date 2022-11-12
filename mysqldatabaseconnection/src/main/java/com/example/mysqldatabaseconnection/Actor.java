@@ -10,7 +10,7 @@ public class Actor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private int actor_id;
     private String first_name;
     private String last_name;
 
@@ -26,7 +26,7 @@ public class Actor {
 
 
     public int getId() {
-        return id;
+        return actor_id;
     }
 
     public String getFirst_name() {
